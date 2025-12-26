@@ -1,0 +1,10 @@
+{
+  "product_id": "12345",
+  "name": "Wireless Headphones",
+  "price": 99.99,
+  "description": "High-quality wireless headphones",
+  "image": {
+    "size": "default",
+    "url": "/images/headphones.jpg"
+  }
+}

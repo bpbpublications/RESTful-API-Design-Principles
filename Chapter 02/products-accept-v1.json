@@ -1,0 +1,29 @@
+{
+  "version": "v1",
+  "products": [
+    {
+      "id": 201,
+      "name": "Smartphone",
+      "category": "Electronics",
+      "price": 499.99,
+      "availability": "in-stock",
+      "features": [
+        "5G",
+        "OLED screen",
+        "64GB storage"
+      ]
+    },
+    {
+      "id": 202,
+      "name": "Laptop",
+      "category": "Computers",
+      "price": 899.99,
+      "availability": "out-of-stock",
+      "features": [
+        "Intel i7",
+        "16GB RAM",
+        "512GB SSD"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope
+	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:hello="http://example.org/hello">
+	<soapenv:Header>
+		<tracking:MessageID
+			xmlns:tracking="http://example.org/tracking">12345
+		</tracking:MessageID>
+	</soapenv:Header>
+	<soapenv:Body>
+		<hello:GreetResponse>
+			<hello:Message>Hello, World!</hello:Message>
+		</hello:GreetResponse>
+	</soapenv:Body>
+</soapenv:Envelope>

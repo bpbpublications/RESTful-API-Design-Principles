@@ -1,0 +1,23 @@
+{
+  "user_id": 12345,
+  "name": "Jane Doe",
+  "username": "janedoe123",
+  "email": "janedoe@example.com",
+  "profile_picture": "/profile_pictures/12345.jpg",
+  "activity_history": [
+    {
+      "date": "2034-11-15",
+      "action": "Liked a post",
+      "post_id": 5678
+    },
+    {
+      "date": "2034-11-10",
+      "action": "Followed user",
+      "user_id": 6789
+    }
+  ],
+  "preferences": {
+    "notifications": "enabled",
+    "theme": "dark"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "customer_id": "12345",
+  "products": [
+    {
+      "id": "p001",
+      "quantity": 1
+    },
+    {
+      "id": "p002",
+      "quantity": 2
+    }
+  ],
+  "payment_method": "credit_card",
+  "total": 100
+}

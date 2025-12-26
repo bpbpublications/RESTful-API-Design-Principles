@@ -1,0 +1,19 @@
+{
+  "version": "3",
+  "tasks": [
+    {
+      "id": 101,
+      "title": "Complete quarterly report",
+      "description": "Finish the quarterly financial report",
+      "status": "in-progress",
+      "assignedTo": "Jane Doe"
+    },
+    {
+      "id": 102,
+      "title": "Team meeting",
+      "description": "Weekly team sync up",
+      "status": "scheduled",
+      "assignedTo": "John Smith"
+    }
+  ]
+}

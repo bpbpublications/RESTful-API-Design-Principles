@@ -1,0 +1,45 @@
+{
+  "id": "12345",
+  "name": "John Doe",
+  "age": 45,
+  "contact": {
+    "phone": "+1234567890",
+    "email": "john.doe@example.com",
+    "address": [
+      {
+        "type": "home",
+        "street": "123 Main St",
+        "city": "Sample City",
+        "state": "SC",
+        "zip": "12345"
+      }
+    ]
+  },
+  "insurance": {
+    "id": "5678-1234-A",
+    "provider": "HealthFirst",
+    "coverage": "Basic",
+    "links": {
+      "self": "/patients/12345/insurance",
+      "provider": "/providers/HealthFirst"
+    }
+  },
+  "health_conditions": [
+    {
+      "condition": "allergies",
+      "treatment": "Antihistamines",
+      "frequency": "During pollen season",
+      "symptoms": [
+        {
+          "type": "sneezing",
+          "frequency": "daily"
+        }
+      ]
+    },
+    {
+      "condition": "headaches",
+      "treatment": "Aspirin",
+      "frequency": "Once every two weeks"
+    }
+  ]
+}

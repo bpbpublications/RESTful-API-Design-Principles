@@ -1,0 +1,37 @@
+{
+  "version": "v2",
+  "products": [
+    {
+      "id": 301,
+      "name": "Smartphone",
+      "category": "Electronics",
+      "price": 499.99,
+      "availability": "in-stock",
+      "features": {
+        "5G": true,
+        "OLED screen": true,
+        "storage": "64GB"
+      },
+      "ratings": {
+        "average": 4.5,
+        "reviews": 1234
+      }
+    },
+    {
+      "id": 302,
+      "name": "Laptop",
+      "category": "Computers",
+      "price": 899.99,
+      "availability": "out-of-stock",
+      "features": {
+        "Intel i7": true,
+        "RAM": "16GB",
+        "storage": "512GB SSD"
+      },
+      "ratings": {
+        "average": 4.7,
+        "reviews": 342
+      }
+    }
+  ]
+}

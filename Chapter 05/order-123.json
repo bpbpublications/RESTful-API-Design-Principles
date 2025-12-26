@@ -1,0 +1,22 @@
+{
+  "orderId": 123,
+  "status": "pending",
+  "totalAmount": 99.99,
+  "_links": {
+    "self": {
+      "href": "/order/123"
+    },
+    "ship": {
+      "href": "/order/123?status=ship",
+      "method": "POST"
+    },
+    "cancel": {
+      "href": "/order/123?status=cancel",
+      "method": "POST"
+    }
+  },
+  "metadata": {
+    "version": "1.2",
+    "expiresAt": "2035-03-04T10:00:00Z"
+  }
+}

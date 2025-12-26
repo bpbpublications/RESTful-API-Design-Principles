@@ -1,0 +1,26 @@
+{
+  "_links": {
+    "self": {
+      "href": "/orders/67890"
+    },
+    "cancel": {
+      "href": "/orders/67890?status=cancel",
+      "method": "POST"
+    },
+    "update": {
+      "href": "/orders/67890",
+      "method": "PUT"
+    }
+  },
+  "_embedded": {
+    "customer": {
+      "customerId": "12345",
+      "name": "John Doe",
+      "_links": {
+        "self": {
+          "href": "/customers/12345"
+        }
+      }
+    }
+  }
+}

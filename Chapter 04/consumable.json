@@ -1,0 +1,14 @@
+{
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald",
+  "isbn": "9780743273565",
+  "genres": [
+    "Classic",
+    "Fiction"
+  ],
+  "availability": "In Stock",
+  "links": {
+    "author": "/authors/156",
+    "purchase": "/books/the-great-gatsby/purchase"
+  }
+}

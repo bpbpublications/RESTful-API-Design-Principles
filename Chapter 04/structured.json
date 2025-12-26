@@ -1,0 +1,29 @@
+{
+  "id": "12345",
+  "name": "John Doe",
+  "age": 45,
+  "address": {
+    "street": "123 Main St",
+    "city": "Sample City",
+    "state": "SC",
+    "zip": "12345"
+  },
+  "insurance": {
+    "id": "5678-1234-A",
+    "provider": "HealthFirst",
+    "coverage": "Basic",
+    "links": {
+      "self": "/patients/12345/insurance"
+    }
+  },
+  "health_conditions": {
+    "allergies": {
+      "treatment": "Antihistamines",
+      "frequency": "During pollen season"
+    },
+    "headaches": {
+      "treatment": "Painkillers",
+      "frequency": "Once every two weeks"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "event": "Outdoor Concert",
+  "date": "2035-05-15",
+  "location": "New York, NY",
+  "_links": {
+    "self": {
+      "href": "/events/12345"
+    },
+    "buyTickets": {
+      "href": "/events/12345/tickets",
+      "method": "POST",
+      "rel": "buyTickets",
+      "condition": "date >= '2035-05-01' && date <= '2035-05-14' && user.geo == 'US'"
+    },
+    "viewReplay": {
+      "href": "/events/12345/replay",
+      "method": "GET",
+      "rel": "viewReplay",
+      "condition": "date < '2035-05-01' || user.geo != 'US'"
+    },
+    "joinLiveStream": {
+      "href": "/events/12345/stream",
+      "method": "GET",
+      "rel": "joinLiveStream",
+      "condition": "date == '2035-05-15' && user.geo != 'US'"
+    }
+  }
+}

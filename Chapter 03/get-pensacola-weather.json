@@ -1,0 +1,8 @@
+{
+  "city": "Pensacola",
+  "temperature": {
+    "value": 25,
+    "scale": "Celsius"
+  },
+  "weather": "Sunny"
+}

@@ -1,0 +1,18 @@
+{
+  "product_id": "12345",
+  "name": "Wireless Headphones",
+  "price": 99.99,
+  "description": "High-quality wireless headphones",
+  "image": {
+    "web": "/images/headphones-large.jpg",
+    "mobile": "/images/headphones-small.jpg"
+  },
+  "reviews": {
+    "mobile": "/products/12345/reviews?limit=3",
+    "web": "/products/12345/reviews?limit=10"
+  },
+  "links": {
+    "self": "/products/12345",
+    "purchase": "/products/12345/purchase"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "error": "Conflict",
+  "message": "The resource is locked",
+  "_links": {
+    "retry": {
+      "href": "/resource/123?status=retry",
+      "method": "POST",
+      "rel": "retry"
+    },
+    "help": {
+      "href": "/help/resource-lock",
+      "method": "GET",
+      "rel": "help"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald",
+  "isbn": "9780743273565",
+  "availability": "In Stock",
+  "links": {
+    "self": {
+      "href": "/books/the-great-gatsby",
+      "method": "GET",
+      "rel": "self"
+    },
+    "update": {
+      "href": "/books/the-great-gatsby",
+      "method": "PUT",
+      "rel": "update"
+    },
+    "delete": {
+      "href": "/books/the-great-gatsby",
+      "method": "DELETE",
+      "rel": "delete"
+    },
+    "purchase": {
+      "href": "/books/the-great-gatsby ",
+      "method": "POST",
+      "rel": "purchase"
+    }
+  }
+}

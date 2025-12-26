@@ -1,0 +1,16 @@
+[
+  {
+    "product_name": "Wireless Mouse",
+    "price": 25.99,
+    "description": "Ergonomic wireless mouse",
+    "category": "Electronics",
+    "availability": "In Stock"
+  },
+  {
+    "product_name": "Bluetooth Keyboard",
+    "price": 49.99,
+    "description": "Sleek Bluetooth keyboard",
+    "category": "Electronics",
+    "availability": "Out of Stock"
+  }
+]
